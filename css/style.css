@@ -1,0 +1,321 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	background-color: #ffffff;
+	height: 100%;
+}
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1200px;
+	min-height: 100%;
+}
+/*----------------------------------------header*/
+header {
+	height: 100px;
+}
+.header1 {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logo {
+	flex: 0 0 auto;
+	width: 30%;
+	margin-top: 32px;
+	text-align: center;
+}
+.menu {
+	list-style: none;
+	flex: 0 0 auto;
+	width: 50%;
+	margin-top: 37px;
+	text-align: center;
+}
+.menu a {
+	text-decoration: none;
+	font-family: "Gotham-Medium";
+	font-size: 12px;
+	color: #a7a7a7;
+	padding: 48px;
+}
+.menu a:hover {
+	color: #414141;
+}
+.menu li {
+	display: inline;
+}
+/*------------------------------------------Конец header*/
+
+
+/*------------------------------------------letus*/
+.block-letus {
+	background-image: url("../img/bg-head.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+}
+.block-letus .title {
+	font-size: 40px;
+	font-family: "Gotham-Bold";
+	text-align: center;
+	color: #303030;
+	padding-top: 165px;
+}
+.block-letus .title2 {
+	font-size: 16px;
+	font-family: "Georgia";
+	font-style: italic;
+	text-align: center;
+	color: #5a5a5a;
+	margin-top: 30px;
+}
+.block-letus .btn {
+	display: block;
+	margin: 68px auto 0;
+	max-width: 80px;
+}
+/*-----------------------------------------конец letus*/
+
+/*-----------------------------------------общие классы*/
+#m1, #m2, #m3 {
+	font-size: 30px;
+	font-family: "Gotham-Bold";
+	text-align: center;
+	color: #303030;
+	margin-top: 50px;
+}
+.rectangle {
+	display: block;
+	margin: 10px auto 0; 
+}
+.text {
+	font-size: 16px;
+	font-family: "ProximaNova-Regular";
+	text-align: center;
+	color: #5a5a5a;
+	margin-top: 30px;
+}
+.main-content {
+	padding-bottom: 80px;
+}
+/*-----------------------------------------конец общие классы*/
+
+/*-----------------------------------------featured*/
+.block-featured {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+.block-work {
+	text-align: center;
+}
+.block-work img {
+	display: inline-block;
+	height: 170px;
+	width: 260px;
+	padding: 45px 28px 15px 28px;
+}
+.block-work img {
+	opacity: 0.8;
+}
+.block-work img:hover {
+	opacity: 1;
+}
+/*------------------------------------------конец featured*/
+
+/*------------------------------------------team*/
+.block-team {
+	background-image: url("../img/bg-team1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 530px;
+	width: 100%;
+	max-width: 1200px;
+	margin: 50px auto;
+	border: 1px solid #d9d9d9;
+}
+.block-team .rectangle {
+	width: 185px;
+	height: 3px;
+}
+.teammates {
+	text-align: center;
+	width: 100%;
+}
+.teammate {
+	background-color: #ffffff;
+	width: 20%;
+	max-width: 210px;
+	height: 210px;
+	display: inline-block;
+	padding-top: 10px;
+	margin: 70px 10px 10px 10px;
+	box-shadow: 0 2px 5px 0 #cccccc;
+}
+.name {
+	font-size: 16px;
+	font-family: "Gotham-Bold";
+	text-align: center;
+	color: #303030;
+	margin-top: 10px;
+}
+.who {
+	font-size: 12px;
+	font-family: "Georgia";
+	font-style: italic;
+	text-align: center;
+	color: #303030;
+	margin-top: 10px;
+}
+.sm-btn {
+	display: inline-block;
+	margin: 10px auto;
+	padding-top: 10px;
+}
+.sm-btn a {
+	padding-right: 15px;
+}
+/*---------------------------------------конец team*/
+
+/*---------------------------------------contact*/
+#m3 {
+	margin: 0;
+}
+.block-contact .rectangle {
+	margin-top: 18px;
+	width: 180px;
+	height: 3px;
+}
+.contact {
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	margin-top: 42px;
+}
+.item {
+	margin-bottom: 42px;
+}
+.left .map {
+	border: 5px solid #ffffff;
+	box-shadow: 0px 2px 5px 0px #cccccc;
+}
+.text-contact {
+	font-size: 16px;
+	font-family: "ProximaNova-Regular";
+	color: #5a5a5a;
+	margin-bottom: 20px;
+}
+
+.form2 .input {
+	
+}
+.form2 .submit1 {	
+	width: 55%;
+	float: right;
+}
+.form2 .btn-str{
+	margin-right: 10px;
+}
+textarea {
+	background-color: #f2f2f2;
+	width: 93%;
+	height: 200px;
+	resize: none;
+	font-size: 16px;
+	font-family: "Georgia";
+	font-style: italic;
+	padding: 25px 0 0 30px;
+	border: 1px solid #d9d9d9;
+}
+.email {
+	background-color: #f2f2f2;
+	width: 467px;
+	height: 65px;
+	font-size: 16px;
+	font-family: "Georgia";
+	font-style: italic;
+	padding-left: 30px;
+	margin-top: 20px;
+	border: 1px solid #d9d9d9;
+}
+.submit {
+	background-color: #6995a9;
+	width: 250px;
+	height: 65px;
+	font-size: 16px;
+	font-family: "Gotham-Bold";
+	text-align: center;
+	color: #ffffff;
+	box-shadow: 0 2px 5px 0 #ffffff;
+	padding-left: 25px;
+	margin: 20px; 
+}
+/*-----------------------------------------конец contact*/
+
+/*-----------------------------------------footer*/
+footer {
+	max-width: 1200px;
+	margin: auto;
+	height: 80px;
+	background-color: #4f4f4f;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.text-footer {
+	font-size: 16px;
+	font-family: "ProximaNova-Regular";
+	color: #7b7b7b;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.text-footer1,
+.text-footer2 {
+	flex: 0 0 auto;
+	padding-top: 35px;
+}
+/*-------------------------------------------конец footer*/
+
+@font-face {
+font-family: "Gotham-Bold";
+src: url("../fonts/Gotham-Bold.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "Gotham-Medium";
+src: url("../fonts/Gotham-Medium.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "ProximaNova-Regular";
+src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+.flex {
+	display: flex;
+
+}
+
+
+input .email {
+	width: 100%;
+}

@@ -1,0 +1,202 @@
+﻿* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: auto;
+	color: #5a5a5a;
+	font-family:"ProximaNova-Regular";
+	text-align: center;
+	max-width: 1200px;
+}
+
+.contayner {
+	padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
+    height: auto;
+}
+
+header {
+	padding: 30px 0 30px 0;
+	
+}
+
+main {
+	flex-grow: 1;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #a7a7a7;
+	margin-left: 80px;
+	font-family: "Gotham-Medium";
+	
+}
+
+.block-letus {
+	background-image: URL(../img/bg-head.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-grey {
+	background-color: #f3f3f3;
+	background-size: cover;
+}
+
+.teammate {
+	background-color: white;
+	padding: 20px 25px 20px 25px;
+	margin: 50px 0 50px 0;
+	box-shadow: 0 0 15px;
+}
+
+.teammate img {
+	margin: 10px;
+}
+
+H1 {
+	font-family: "Gotham-Bold";
+	color: #303030;
+	line-height: 50px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	font-size: 40px;
+}
+
+H2 {
+	font-family: "Gotham-Bold";
+	color: #303030;
+	padding-top: 40px;
+	font-size: 25px;
+}
+
+.btn {
+	padding-top: 100px;
+	padding-bottom: 40px;
+	
+}
+
+.image img {
+	margin: 20px 0 20px 0;
+	
+}
+
+
+.rectangle{
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.name {
+	font-family: "Gotham-Bold";
+	color: #303030;
+}
+
+.who {
+	font-style: italic;
+	color: #303030;
+	font-size: 14px;
+	font-family: "Georgia";
+	margin-top: 8px;
+}
+
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.er {
+	margin-left: auto;
+}
+
+textarea {
+    background-color: #f2f2f2;
+    width: 440px;
+    height: 200px;
+    resize: none;
+    font-size: 18px;
+    font-family: "Georgia";
+    font-style: italic;
+    padding: 30px 0 0 30px;
+    border: 1px solid #d9d9d9;	
+	margin-bottom: 20px;
+}
+
+.email {
+    background-color: #f2f2f2;
+    width: 250px;
+    height: 65px;
+    font-size: 16px;
+    font-family: "Georgia";
+    font-style: italic;
+    padding-left: 30px;
+    border: 1px solid #d9d9d9;
+}
+
+.submit {
+    background-color: #6995a9;
+    width: 160px;
+    height: 65px;
+    font-size: 16px;
+    font-family: "Gotham-Bold";
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 2px 5px 0 #ffffff;
+    padding-left: 10px;
+}
+
+.block-contact {
+	margin-bottom: 50px;
+}
+
+.map {
+	border: 5px solid #ffffff;
+    box-shadow: 0px 2px 5px 0px #cccccc;
+}
+
+.text-contact {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #4f4f4f;
+	padding: 30px 0 30px 0;
+	background-size: 100%;
+}
+
+footer p {
+	color: #949494;
+}
+
+@font-face {
+font-family: "Gotham-Bold";
+src: url("../fonts/Gotham-Bold.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "Gotham-Medium";
+src: url("../fonts/Gotham-Medium.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "ProximaNova-Regular";
+src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
